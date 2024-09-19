@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    margin-top:20px;
+    margin-bottom:20px;
+    background: #931BDC;
+    background: linear-gradient(135deg, #931BDC, #A6009C);
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+     height:100vh;
+}
+
+.container {
+    background-color:white;
+    border-radius:5px;
+    padding:40px 20px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.output-div {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 90%;
+    max-width: 500px;
+    height:70px;
+    line-height:70px;
+    margin-top:30px;
+    background-color:white;
+    border-radius:5px;
+    vertical-align: middle;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.number-result {
+    font-size:2rem;
+}
+
+h1 {
+    padding-bottom:30px;
+}
+
+h2 {
+    font-size: 0.8rem;
+    text-align: left;
+    line-height:1.4;
+}
+
+.convert-btn {
+  background-color: #360b52;
+  width:100%;
+  padding:10px;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  height: 50px;
+  margin-top:10px;
+  outline: none;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.convert-btn:hover {
+  background-color: #7a598f;
+}
+
+.number-input {
+    display:block;
+    font-size:1.7rem;
+    width:100%;
+    height:50px;
+    margin-bottom:10px;
+}
+
+.invalid-input {
+    font-size:1rem;
+    line-height:70px;
+}
